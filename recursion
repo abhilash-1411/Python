@@ -1,0 +1,15 @@
+# import sys
+# sys.setrecursionlimit(10000)   //#set number of calls
+# print(sys.getrecursionlimit())  
+
+
+# ---factorial using recursion
+
+def factorial(n):
+    if n==0: return 1
+    if n==1: return 1
+    else: return n*factorial(n-1)
+
+result=factorial(5)
+print(result)
+
